@@ -74,6 +74,7 @@ $('.btn-new').click(function(e){
     $('.modal-title').empty()
     $('.modal-title').append('Cadastro dos tipos de acesso')
     $('#form-acesso :input').val('')
+    $('.btn-save').show()
     $('.btn-save').attr('data-operation', 'create')
     $('#modal-acesso').modal('show')
     $('input').prop('disabled', false)

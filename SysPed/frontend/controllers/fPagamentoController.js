@@ -74,6 +74,7 @@ $('.btn-new').click(function(e){
     $('.modal-title').empty()
     $('.modal-title').append('Cadastro de Forma de Pagamento')
     $('#form-fPagamento :input').val('')
+    $('.btn-save').show()
     $('.btn-save').attr('data-operation', 'create')
     $('#modal-fPagamento').modal('show')
     $('input').prop('disabled', false)

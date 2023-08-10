@@ -84,6 +84,7 @@ $('.btn-new').click(function(e){
     $('.modal-title').empty()
     $('.modal-title').append('Cadastro de produtos')
     $('#form-produtos :input').val('')
+    $('.btn-save').show()
     $('.btn-save').attr('data-operation', 'create')
     $('#modal-produtos').modal('show')
     $('input').prop('disabled', false)
